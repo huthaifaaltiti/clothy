@@ -1,6 +1,6 @@
 // Sector: Home styles
 
-// imports styles
+// imports
 @import "../../styles/mixins.styles.scss";
 @import "../../styles/variables.styles.scss";
 
@@ -8,18 +8,17 @@
   width: 100%;
   height: auto;
 
-  background-color: transparent;
+  margin-top: 1rem;
 
   .home-cont {
     @include container;
 
     .home-content {
       width: 100%;
-      height: auto;
 
       display: flex;
       flex-wrap: wrap;
-      gap: 2rem;
+      justify-content: space-between;
     }
   }
 }
