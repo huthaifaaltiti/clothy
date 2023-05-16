@@ -1,0 +1,18 @@
+// Sector: Home styles
+@import "../../styles/mixins.styles.scss";
+
+.home-page {
+  width: 100%;
+  height: auto;
+
+  background-color: transparent;
+
+  .home-cont {
+    @include container;
+
+    .home-content {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

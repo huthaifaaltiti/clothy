@@ -1,0 +1,27 @@
+// Sector: Mixins
+
+@mixin container {
+  width: 90%;
+  max-width: 90rem;
+  height: auto;
+
+  margin: 0 auto;
+}
+
+@mixin flex-r-full-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+@mixin flex-r-2 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+@mixin grid-center {
+  display: grid;
+  place-items: center;
+}
