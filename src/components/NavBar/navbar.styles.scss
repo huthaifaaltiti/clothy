@@ -1,23 +1,26 @@
 // Sector: Styles NavBar
+
+// imports styles
 @import "../../styles/mixins.styles.scss";
+@import "../../styles/variables.styles.scss";
 
 .navbar-body {
   width: 100%;
-  height: 3rem;
 
-  font-size: 1rem;
+  font-size: 1.2rem;
   background-color: transparent;
 
   .navbar-cont {
     @include container;
     @include flex-r-full-2;
 
-    background-color: inherit;
+    background-color: $color-white;
 
     .logo-cont {
       @include grid-center;
 
       height: 100%;
+      padding: 2rem 0;
       background-color: inherit;
     }
 
