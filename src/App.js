@@ -3,6 +3,9 @@ import { lazy, Suspense } from "react";
 // react-router-dom
 import { Routes, Route } from "react-router-dom";
 
+// styles
+import "./App.styles.scss";
+
 // components
 import NavBar from "./components/NavBar/index.js";
 

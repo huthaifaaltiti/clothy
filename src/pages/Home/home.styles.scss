@@ -1,5 +1,8 @@
 // Sector: Home styles
+
+// imports styles
 @import "../../styles/mixins.styles.scss";
+@import "../../styles/variables.styles.scss";
 
 .home-page {
   width: 100%;
@@ -13,6 +16,10 @@
     .home-content {
       width: 100%;
       height: auto;
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
     }
   }
 }
