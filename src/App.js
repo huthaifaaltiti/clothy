@@ -16,10 +16,9 @@ const Shop = lazy(() => import("./pages/Shop/index.js"));
 const App = () => {
   return (
     <div className="App">
-      <div className="container pt-2">
+      <div className="container">
         <Suspense fallback="Loading...">
           <NavBar />
-
           <Routes>
             <Route index element={<Home />} />
             <Route path="/shop" element={<Shop />} />

@@ -19,17 +19,16 @@ export default function Home() {
   const dispatch = useDispatch();
   const { categories } = useSelector((state) => state.categoriesReducer);
 
-  // console.log({categories});
-
   useEffect(() => {
     dispatch(fetchCategories());
   }, []);
+
   return (
     <div className="home-page">
       <div className="home-cont">
         <div className="home-content">
           {categories?.map(({ id, title, imageUrl }) => (
-            <CategoryItem key={id} title={title} imageUrl={imageUrl}/>
+            <CategoryItem key={id} title={title} imageUrl={imageUrl} />
           ))}
         </div>
       </div>
