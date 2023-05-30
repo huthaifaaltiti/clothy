@@ -17,7 +17,6 @@
     background-color: $color-white;
     padding: 0 7.5px;
 
-
     .logo-cont {
       @include grid-center;
 
@@ -36,6 +35,13 @@
         li {
           font-size: inherit;
         }
+      }
+
+      a {
+        text-decoration: none;
+        text-transform: uppercase;
+        
+        color: inherit;
       }
     }
   }

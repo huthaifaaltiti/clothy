@@ -25,8 +25,8 @@ export default function Home() {
 
   return (
     <div className="home-page">
-      <div className="home-cont">
-        <div className="home-content">
+      <div className="home-page-cont">
+        <div className="home-page-content">
           {categories?.map(({ id, title, imageUrl }) => (
             <CategoryItem key={id} title={title} imageUrl={imageUrl} />
           ))}

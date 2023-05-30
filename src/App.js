@@ -12,6 +12,7 @@ import NavBar from "./components/NavBar/index.js";
 // pages
 const Home = lazy(() => import("./pages/Home/index.js"));
 const Shop = lazy(() => import("./pages/Shop/index.js"));
+const SignIn = lazy(() => import("./pages/SignIn/index.js"));
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
           <Routes>
             <Route index element={<Home />} />
             <Route path="/shop" element={<Shop />} />
+
+            <Route path="/sign-in" element={<SignIn />} />
           </Routes>
         </Suspense>
       </div>

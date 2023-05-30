@@ -1,6 +1,11 @@
 // react
 import React from "react";
-import { Link } from "react-router-dom";
+// react-router-dom
+import { NavLink, Link } from "react-router-dom";
+
+// component
+import {ReactComponent as CrownLogo} from "../../assets/crown.svg";
+
 
 import {ReactComponent as CrownLogo } from "../../assets/svgs/crown.svg";
 
@@ -14,19 +19,18 @@ export default function NavBar() {
       <div className="navbar-cont">
         <div className="logo-cont">
           <Link to="/">
-           <CrownLogo className="logo"/>
+            <CrownLogo />
+
           </Link>
         </div>
 
         <div className="navbar-menu-cont">
           <ul>
             <li>
-              <Link to="shop">Shop</Link>
+              <NavLink to="/shop">Shop</NavLink>
             </li>
-            <li>Connect</li>
-            <li>Sign In</li>
             <li>
-              <BsCart />
+              <NavLink to="/sign-in">Sign In</NavLink>
             </li>
           </ul>
         </div>

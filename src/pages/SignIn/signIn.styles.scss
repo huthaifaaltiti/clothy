@@ -1,0 +1,13 @@
+// Sector: SignIn Styles
+
+// imports
+@import "../../styles/mixins.styles.scss";
+@import "../../styles/variables.styles.scss";
+
+.sign-in-page {
+  width: 100%;
+
+  .sign-in-page-cont{
+    @include container;
+  }
+}
