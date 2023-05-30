@@ -1,4 +1,4 @@
-// Categories Reducer Constants
+// Firebase Reducer Constants
 import * as CATEGORIES_CONSTANTS from "./constants";
 
 const initialState = {

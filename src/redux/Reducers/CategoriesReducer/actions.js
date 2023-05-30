@@ -1,4 +1,4 @@
-// CONTENTFUL Reducer Constants
+// Categories reducer Constants
 import * as CATEGORIES_CONSTANTS from "./constants";
 
 export const fetchCategories = () => async (dispatch) => {
