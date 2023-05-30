@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from "react";
 // react-redux
 import { useDispatch, useSelector } from "react-redux";
+// react-router-dom
+import { Outlet } from "react-router-dom";
 
 // function creator
 import { fetchCategories } from "../../redux/Reducers/CategoriesReducer/actions";
@@ -11,6 +13,7 @@ import CategoryItem from "../../components/CategoryItem/index";
 
 // styles
 import "./home.styles.scss";
+
 
 export default function Home() {
   const dispatch = useDispatch();

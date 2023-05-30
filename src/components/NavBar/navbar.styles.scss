@@ -9,12 +9,13 @@
 
   font-size: 1.2rem;
   background-color: transparent;
-
+  
   .navbar-cont {
     @include container;
     @include flex-r-full-2;
-
+  
     background-color: $color-white;
+    padding: 0 7.5px;
 
     .logo-cont {
       @include grid-center;
