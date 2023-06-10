@@ -1,35 +1,42 @@
 // Colors
-
 /* Primary color */
+$color-primary-l1: #423d3d;
+$color-primary-l2: #575252;
 $color-primary: #2d2727;
 $color-primary-d1: #292323;
 $color-primary-d2: #241f1f;
-$color-primary-l1: #423d3d;
-$color-primary-l2: #575252;
 
 /* Secondary color */
+$color-secondary-l1: #bebebe;
+$color-secondary-l2: #c5c5c5;
 $color-secondary: #b7b7b7;
 $color-secondary-d1: #a5a5a5;
 $color-secondary-d2: #929292;
-$color-secondary-l1: #bebebe;
-$color-secondary-l2: #c5c5c5;
 
 /* Grey color */
+$color-grey-l1: #f0f3ff;
+$color-grey-l2: #f1f5ff;
 $color-grey: #eef2ff;
 $color-grey-d1: #d6dae6;
 $color-grey-d2: #bec2cc;
-$color-grey-l1: #f0f3ff;
-$color-grey-l2: #f1f5ff;
 
 /* General colors */
 $color-white: #fff;
 $color-black: #000;
 
+/* Other colors */
+$color-google: #4285f4;
+$color-google-d1: #357ae8;
+
 /* Border colors */
+$border-color-l1: #4b4b4b;
+$border-color-l2: #5f5f5f;
 $border-color: #373737;
+$border-color-d1: #323232;
+$border-color-d2: #2c2c2c;
 
 // Shadows
-$shadow-light: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-$shadow-medium: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-$shadow-dark: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+$shadow-l: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+$shadow-m: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+$shadow-d: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
   rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
